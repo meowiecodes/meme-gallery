@@ -1,5 +1,4 @@
 var imageUrls = [];
-
 var gallery = document.querySelector('main');
 var imageUrlInput = document.querySelector('input');
 var addImageButton = document.querySelector('button');
@@ -19,7 +18,6 @@ function updateGallery() {
     imageElement.className = 'gallery-image';
     imageElement.src = imageUrls[i];
     gallery.appendChild(imageElement);
-
   }
 }
 
